@@ -5,7 +5,7 @@ import App from './App'
 
 
 ReactDOM.render(
-    <App />,
-  document.getElementById('root')
+  <App subject="Clarice" />,
+document.getElementById('root')
 );
 
