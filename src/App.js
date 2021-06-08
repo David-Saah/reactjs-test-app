@@ -1,7 +1,7 @@
 import './Styles/App.css';
 import './Styles/Bootstrap/bootstrap.min.css'
 import { Component } from 'react';
-import Tick from './Components/Tick'
+import Clock from './Components/Clock'
 // import Home from './Components/Home'
 // import Table from './Components/Table';
 // import Comment from './Components/Comment'
@@ -23,7 +23,7 @@ class App extends Component {
   render() {
     return(
 
-      <Tick />
+      <Clock />
 
       // <div className="container">
       //   <h1><Welcome name="Sara" /></h1>
