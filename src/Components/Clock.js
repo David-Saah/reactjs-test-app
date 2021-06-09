@@ -36,17 +36,5 @@ class Clock extends Component {
     }
 }
 
-// let Tick = (props) => {
-//     ReactDOM.render(
-//         <Clock date={new Date()} />,
-//         document.getElementById("root")
-//     )
-// }
-
-// setInterval(Tick, 1000)
-
-/* side notes */
-/* componentDidMount and componentWillUnmount are called lifecycle methods */
-
 
 export default Clock;
