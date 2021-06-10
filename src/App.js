@@ -1,17 +1,18 @@
 import './Styles/App.css';
 import './Styles/Bootstrap/bootstrap.min.css'
-import { Component } from 'react';
-import Auth from './Components/Auth';
+import { useState } from 'react';
 
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Auth />
-      </div>
-    )
-  }
-};
+let App = () => {
+
+  const [isCircle, setIsCircle] = useState(true)
+
+  return (
+    <div className="container text-center">
+      <div className={isCircle ? "circle" : "square"}></div>
+      <button onClick={() => setIsCircle(!isCircle)} className="btn btn-primary">Click Me</button>
+    </div>
+  )
+}
 
 export default App;
