@@ -39,3 +39,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 * [Making use of props](https://github.com/David-Saah/reactjs-test-app/tree/ef5ba3e1e183074b46ca7507749a123e3e069b95)
 * [Simple digital ticking clock(Using props)](https://github.com/David-Saah/reactjs-test-app/tree/78c4907e72a41a0e1fba6351ce93b383492162f9)
 * [Simple digital ticking clock(Using state)](https://github.com/David-Saah/reactjs-test-app/tree/635e11ce7cf7a3f9be128f978116feaaa3706681)
+* [Testing Conditional Rendering](https://github.com/David-Saah/reactjs-test-app/tree/d5e520027f522613bdad47b202415b1a7173bc30)
